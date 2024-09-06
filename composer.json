@@ -7,13 +7,13 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "symfony/form": "~3.0",
-        "symfony/options-resolver": "~3.0",
-        "symfony/property-access": "~3.0",
+        "symfony/form": "~6.0",
+        "symfony/options-resolver": "~6.0",
+        "symfony/property-access": "~6.",
         "doctrine/orm": "~2.0",
-        "doctrine/common": "~2.0",
-        "gedmo/doctrine-extensions": "~2.1",
-        "symfony/doctrine-bridge": "~3.0"
+        "doctrine/common": "~3.0",
+        "gedmo/doctrine-extensions": "~3.5",
+        "symfony/doctrine-bridge": "~6.0"
     },
     "require-dev": {
         "ext-pdo_sqlite": "*",
