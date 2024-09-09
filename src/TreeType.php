@@ -52,7 +52,7 @@ class TreeType extends AbstractType
         }
     }
 
-    public function configureOptions(OptionsResolver $resolver)
+    public function configureOptions(OptionsResolver $resolver): void
     {
         $queryBuilder = function (Options $options) {
             return function (EntityRepository $repository) use ($options) {
